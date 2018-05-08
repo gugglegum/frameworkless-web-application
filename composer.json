@@ -1,0 +1,21 @@
+{
+  "description": "Frameworkless",
+  "keywords": ["framework", "laravel"],
+  "license": "MIT",
+  "type": "project",
+
+  "autoload": {
+    "psr-4": {
+      "app\\": "app"
+    }
+  },
+  "require": {
+    "aura/router": "^3.0",
+    "vlucas/phpdotenv": "^2.4",
+    "luracast/config": "^2.0",
+    "middlewares/aura-router": "^1.0",
+    "middlewares/request-handler": "^1.1",
+    "zendframework/zend-diactoros": "^1.0",
+    "mindplay/middleman": "3.0.3.x-dev"
+  }
+}
